@@ -1,0 +1,55 @@
+ body {
+     background-image: url("../img/wave168.jpg");
+ }
+ 
+ h1 {
+     /*color: #fff;*/
+     text-shadow: 2px 2px #fff;
+ }
+ 
+ h3 {
+     color: #fff;
+     text-shadow: 2px 2px #000;
+ }
+ 
+ #battle-field-1,
+ #battle-field-2 {
+     width: 353px;
+     height: 353px;
+     margin: 0 auto;
+ }
+ 
+ .ships-line {
+     color: grey;
+     margin: 10px;
+     line-height: 5px;
+     letter-spacing: 10px;
+ }
+ 
+ #battle-field-1 .s {
+     background: #222;
+ }
+ /*lauks*/
+ 
+ #battle-field-2 .s,
+ .w {
+     border: 1px dashed blue;
+     background-image: url("../img/water.svg");
+ }
+ /*tiešie trāpijumi*/
+ 
+ .d {
+     background-image: url("../img/kugis.svg");
+ }
+ /*Garām trāpītie mērķi*/
+ 
+ .m {
+     background-image: url("../img/garam.svg");
+ }
+ 
+ #battle-field-1 div,
+ #battle-field-2 div {
+     width: 35px;
+     height: 35px;
+     float: left;
+ }
